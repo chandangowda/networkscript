@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
@@ -16,6 +15,10 @@ import {MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MaterialModule} from './material-module';
+
+
+
 
 
 
@@ -47,6 +50,7 @@ const routes: Routes = [
     FormsModule,
     MatIconModule,
     MatButtonModule,
+    MaterialModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
