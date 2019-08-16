@@ -12,6 +12,14 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import { MenuComponent } from './menu/menu.component';
 import { RouterModule, Routes } from '@angular/router';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+
+
+
+
 
 
 
@@ -35,6 +43,10 @@ const routes: Routes = [
     MatSidenavModule,
     MatMenuModule,
     HttpClientModule,
+    MatInputModule,
+    FormsModule,
+    MatIconModule,
+    MatButtonModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

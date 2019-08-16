@@ -5,5 +5,20 @@
     left: 0;
     right: 0;
     background: #eee;
+   
     
   }
+
+  .div-inline{
+    display:inline;
+  }
+
+  .example-form-field {
+    width: 200px;
+    margin-right:16px
+  }
+
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}

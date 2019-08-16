@@ -9,6 +9,7 @@ export class MenuComponent implements OnInit {
 
   item1:boolean=false;
   item2:boolean=false;
+  value = 'Clear me';
   constructor() { }
 
   ngOnInit() {
@@ -20,5 +21,9 @@ export class MenuComponent implements OnInit {
 
   public toggle2(){
     this.item2=!this.item2;
+  }
+
+  getIpaddress(serviceAddress:string){
+      console.log('chandan');
   }
 }
